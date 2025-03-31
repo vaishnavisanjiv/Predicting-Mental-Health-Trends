@@ -66,13 +66,13 @@ streamlit run app.py
 ## Project Structure
 
 mental-health-analysis/<br/>
-├── app.py # Main Streamlit application
-├── data/ # Data directory
-│ └── mental_health_data.csv
-├── src/ # Source code
-│ ├── init.py
-│ ├── model.py # Model definitions
-│ └── utils.py # Utility functions
-├── models/ # Model storage
-│ └── saved_models/ # Saved model files
-└── requirements.txt # Project dependencies
+├── app.py # Main Streamlit application<br/>
+├── data/ # Data directory<br/>
+│ └── mental_health_data.csv<br/>
+├── src/ # Source code<br/>
+│ ├── init.py<br/>
+│ ├── model.py # Model definitions<br/>
+│ └── utils.py # Utility functions<br/>
+├── models/ # Model storage<br/>
+│ └── saved_models/ # Saved model files<br/>
+└── requirements.txt # Project dependencies<br/>
