@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mental Health Analysis Dashboard
 
 This project provides an interactive dashboard for analyzing student mental health data and providing personalized insights and recommendations.
@@ -89,3 +90,6 @@ The project includes data preprocessing utilities in `src/utils.py`:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# Predicting-Mental-Health-Trends
+>>>>>>> 0d3b412df785114d98009df37d632f5912cd06bd
