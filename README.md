@@ -65,7 +65,7 @@ streamlit run app.py
 
 ## Project Structure
 
-mental-health-analysis/
+mental-health-analysis/<br/>
 ├── app.py # Main Streamlit application
 ├── data/ # Data directory
 │ └── mental_health_data.csv
