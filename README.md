@@ -1,95 +1,78 @@
-<<<<<<< HEAD
 # Mental Health Analysis Dashboard
 
-This project provides an interactive dashboard for analyzing student mental health data and providing personalized insights and recommendations.
+A comprehensive mental health analysis platform designed for students, providing data-driven insights and personalized recommendations using machine learning algorithms.
+
+## Overview
+
+This dashboard analyzes various factors affecting students' mental health, including academic performance, study patterns, and lifestyle factors, to predict potential mental health concerns like Depression, Anxiety, and Panic Attacks.
 
 ## Features
 
-- Interactive mental health assessment form
-- Personalized insights and visualizations
-- Dataset analysis and statistics
-- Recommendations based on assessment results
+### 1. Mental Health Assessment
 
-## Project Structure
+- Personal information input
+- Academic & lifestyle factor analysis
+- Real-time risk assessment for:
+  - Depression
+  - Anxiety
+  - Panic Attacks
+- Personalized recommendations based on assessment results
 
-```
-mental-health-analysis/
-├── data/
-│   └── mental_health_data.csv
-├── src/
-│   ├── __init__.py
-│   ├── dashboard.py
-│   └── utils.py
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb
-├── models/
-│   └── saved_models/
-├── requirements.txt
-├── README.md
-└── run_dashboard.py
-```
+### 2. Personal Insights
 
-## Setup Instructions
+- Academic Performance Analysis
+- Key Influencing Factors visualization
+- Feature importance analysis for mental health indicators
+- Interactive data visualizations
 
-1. Create a virtual environment:
+### 3. Dataset Analysis
+
+- Comprehensive statistical analysis
+- Mental Health Distribution Analysis
+- Course-wise and Year-wise trends
+- Key correlations and insights
+- Interactive data exploration
+
+## Technology Stack
+
+- Python 3.x
+- Streamlit for web interface
+- XGBoost for machine learning
+- Plotly for interactive visualizations
+- Pandas & NumPy for data processing
+- Scikit-learn for model evaluation
+
+## Installation & Setup
+
+1. Clone the repository:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+git clone https://github.com/your-username/mental-health-analysis.git
+cd mental-health-analysis
 ```
 
-2. Install dependencies:
+2. Install required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the dashboard:
+3. Run the application:
 
 ```bash
-streamlit run run_dashboard.py
+streamlit run app.py
 ```
 
-## Dashboard Features
+## Project Structure
 
-### 1. Mental Health Assessment
-
-- Interactive form to collect user information
-- Demographics, academic factors, and lifestyle information
-- Mental health indicators and support system status
-
-### 2. Personal Insights
-
-- Visualizations comparing user data with dataset
-- Personalized recommendations
-- Progress tracking
-
-### 3. Dataset Analysis
-
-- Overview of the dataset
-- Statistical analysis
-- Correlation analysis
-- Distribution visualizations
-
-## Data Preprocessing
-
-The project includes data preprocessing utilities in `src/utils.py`:
-
-- Categorical variable encoding
-- Feature scaling
-- Missing value handling
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-=======
-# Predicting-Mental-Health-Trends
->>>>>>> 0d3b412df785114d98009df37d632f5912cd06bd
+mental-health-analysis/
+├── app.py # Main Streamlit application
+├── data/ # Data directory
+│ └── mental_health_data.csv
+├── src/ # Source code
+│ ├── init.py
+│ ├── model.py # Model definitions
+│ └── utils.py # Utility functions
+├── models/ # Model storage
+│ └── saved_models/ # Saved model files
+└── requirements.txt # Project dependencies
